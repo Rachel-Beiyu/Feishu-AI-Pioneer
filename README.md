@@ -37,14 +37,9 @@ efficiency-pioneer-coach/
 lark-cli auth login --scope "minutes:minutes:readonly minutes:minutes.transcript:export"
 
 **使用示例**
-# 分析试讲
-"帮我分析这个试讲妙记，8分钟的分享：https://xxx.feishu.cn/minutes/obcnxxxx"
-
-# 生成演讲稿
-"帮我基于这份飞书文档，生成一个8分钟的效率先锋演讲稿"
-
-# 优化故事线
-"帮我优化一下这个效率先锋大赛的故事线，要有记忆点"
+1. 分析试讲:基于这个试讲妙记，给我一些分享建议，8分钟的分享：https://xxx.feishu.cn/minutes/obcnxxxx
+2. 生成演讲稿:帮我基于这份飞书文档，生成一个8分钟的效率先锋演讲稿
+3. 优化故事线:帮我优化一下这个效率先锋大赛的故事线，要有记忆点
 
 **核心设计原则**
 评分标准优先：所有建议必须对齐四大维度，不做无效优化
