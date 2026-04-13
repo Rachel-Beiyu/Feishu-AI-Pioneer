@@ -18,15 +18,6 @@
 3. 输出「改了能直接提分」的优先改进清单
 
 
-**文件结构**
-efficiency-pioneer-coach/
-├── SKILL.md                     # 主文件：妙记读取方式 + 演讲教练指令
-└── references/
-    ├── scoring-criteria.md      # 四大维度评分标准详解（30/30/20/20）
-    ├── speech-structures.md     # 三种演讲结构模板（故事型/逻辑型/影响型）
-    ├── title-examples.md        # 演讲标题参考库 + 5种创作公式
-    └── qna-prep.md              # 评委高频问题 × 10 + 应对框架
-
 **安装方式**
 前置要求：
 1. 已安装 lark-cli：npm install -g @larksuite/cli
@@ -36,10 +27,10 @@ efficiency-pioneer-coach/
 **授权妙记读取权限（首次使用）：**
 lark-cli auth login --scope "minutes:minutes:readonly minutes:minutes.transcript:export"
 
-**使用示例**
-1. 分析试讲:基于这个试讲妙记，给我一些分享建议，8分钟的分享【妙记链接】
-2. 生成演讲稿:帮我基于这份飞书文档，生成一个8分钟的效率先锋演讲稿【文档链接】
-3. 优化故事线:帮我优化一下这个效率先锋大赛的故事线，要有记忆点【文档链接】
+**使用prompts**
+1. 基于这个试讲妙记链接，给我一些分享建议，8分钟的分享【妙记链接】
+2. 帮我基于这份飞书文档，生成一个8分钟的效率先锋演讲稿【文档链接】
+3. 帮我优化一下这个效率先锋大赛的故事线，要有记忆点【文档链接】
 
 **核心设计原则**
 评分标准优先：所有建议必须对齐四大维度，不做无效优化
